@@ -59,6 +59,7 @@ static size_t _height(const binary_tree_t *tree)
 	height_r = tree->right ? 1 + _height(tree->right) : 0;
 	return (height_l > height_r ? height_l : height_r);
 }
+<<<<<<< HEAD
 
 /**
  * binary_tree_print - Prints a binary tree
@@ -97,3 +98,5 @@ void binary_tree_print(const binary_tree_t *tree)
 	}
 	free(s);
 }
+=======
+>>>>>>> d5c3856224da0a011026046fd3da6d8ded8d15e3
